@@ -1,0 +1,23 @@
+{
+  "name": "node-lirc-isaax-example",
+  "version": "0.1.0",
+  "description": "An example of IR control with LIRC",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yentsun/node-lirc-isaax-example.git"
+  },
+  "keywords": [
+    "lirc",
+    "isaax"
+  ],
+  "author": "Max Korinets",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yentsun/node-lirc-isaax-example/issues"
+  },
+  "homepage": "https://github.com/yentsun/node-lirc-isaax-example#readme"
+}
