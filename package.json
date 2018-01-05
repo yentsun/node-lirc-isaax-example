@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/yentsun/node-lirc-isaax-example#readme",
   "dependencies": {
-    "lirc_node": "0.0.4"
+    "lirc_node": "0.0.4",
+    "node-schedule": "^1.2.5"
   }
 }
