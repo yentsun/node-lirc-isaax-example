@@ -1,0 +1,13 @@
+{
+  "name": "lirc",
+  "version": "0.1.0",
+  "description": "An example of IR control with LIRC",
+  "main": "main.js",
+  "author": "Max Korinets",
+  "license": "MIT",
+  "language":"javascript",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependency": null
+}
