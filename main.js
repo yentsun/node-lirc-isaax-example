@@ -1,11 +1,12 @@
 const lirc = require('lirc_node');
 const {RecurrenceRule, scheduleJob} = require('node-schedule');
+const {HOUR=12, MINUTE=0} = process.env;
 
 
 lirc.init();
 const rule = new RecurrenceRule();
-rule.hour = 13;
-rule.minute = 20;
+rule.hour = HOUR;
+rule.minute = MINUTE;
 
 scheduleJob(rule, () => {
     lirc.irsend.send_once("tv", "key_power", () => {
