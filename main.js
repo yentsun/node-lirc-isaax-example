@@ -10,7 +10,7 @@ rule.minute = MINUTE;
 
 scheduleJob(rule, () => {
     lirc.irsend.send_once("tv", "key_power", () => {
-        console.log("tv power command sent");
+        console.log("tv power command sent")
     });
 });
 console.log("job scheduled");
