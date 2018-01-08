@@ -10,4 +10,4 @@ scheduleJob({hour: HOUR, minute: MINUTE}, () => {
         console.log("tv power command sent");
     });
 });
-console.log(`job scheduled: ${{HOUR, MINUTE}}`);
+console.log(`job scheduled: ${HOUR}-${MINUTE}`);
