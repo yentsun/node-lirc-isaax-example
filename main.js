@@ -13,3 +13,4 @@ scheduleJob(rule, () => {
         console.log("tv power command sent");
     });
 });
+console.log("job scheduled");
